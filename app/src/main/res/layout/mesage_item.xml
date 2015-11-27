@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+    >
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="75dp"
+          android:orientation="vertical"
+          android:background="@color/whites"
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="16dp"
+        >
+
+        <TextView
+            android:id="@+id/msgSatus"
+            android:layout_width="35dp"
+            android:layout_height="15dp"
+            android:text="未读"
+            android:textSize="10dp"
+            android:textColor="@color/whites"
+            android:background="@drawable/coral_background"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/msgTitle"
+            android:layout_width="170dp"
+            android:layout_height="17dp"
+            android:text=" "
+            android:textSize="14dp"
+            android:textColor="@color/greyishBrown1"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:id="@+id/msgDate"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:text=" "
+            android:textSize="10dp"
+            android:textColor="@color/warmGrey4"
+            android:gravity="right"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="26dp"
+        >
+
+        <TextView
+            android:id="@+id/msgInfo"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/warmGrey4"
+            android:textSize="10dp"
+            android:text=" "
+            android:layout_marginTop="5dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/xuanze"
+                />
+          </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white2"
+        />
+
+
+</LinearLayout>

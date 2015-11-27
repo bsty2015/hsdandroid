@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    >
+
+<FrameLayout
+    android:id="@+id/notdata"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@mipmap/not_data"
+    android:layout_gravity="center"
+    >
+
+</FrameLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <ExpandableListView
+        android:id="@+id/dealDetaillist"
+        android:groupIndicator="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+</FrameLayout>
+</FrameLayout>

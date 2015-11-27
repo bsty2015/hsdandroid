@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/closeButton"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/integrate_background"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/img_gift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/declarationi"
+                android:textSize="14dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/lightgold"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            >
+
+            <TextView
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jifenname"
+                android:textSize="10dp"
+                android:lineSpacingExtra ="3dp"
+                android:textColor="@color/whites"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friengifts"
+                android:textSize="14dp"
+                android:textColor="@color/lightgold"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            >
+
+            <TextView
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jinfentuijian"
+                android:lineSpacingExtra ="3dp"
+                android:textSize="10dp"
+                android:textColor="@color/whites"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:src="@mipmap/close"-->
+        <!--android:layout_marginTop="140dp"-->
+        <!--android:layout_marginLeft="28dp"-->
+        <!--/>-->
+
+</RelativeLayout>

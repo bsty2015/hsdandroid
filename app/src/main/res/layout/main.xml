@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/whites"
+    >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        >
+
+
+        <!--产品listview-->
+        <FrameLayout
+            android:id="@+id/notdata"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@mipmap/not_data"
+            android:layout_gravity="center"
+            >
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+            <com.jc.ui.FreshenList
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/listView"
+                />
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+
+</FrameLayout>

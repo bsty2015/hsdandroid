@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 颜色-->
+
+
+    <!-- 产品状态-->
+    <color name="best_seller">#fa695d</color>
+    <color name="sell_out">#919191</color>
+    <color name="has_been_honored">#00cd98</color>
+    <color name="presell">#0e88c4</color>
+
+
+    <!-- 产品信息-->
+    <color name="best_sellerr">#ff716d</color>
+    <color name="sell_outt">#545168</color>
+    <color name="advance_booking">#27b691</color>
+    <color name="waterblue">#0e88c4</color>
+    <color name="sand">#dec976</color>
+
+
+    <!-- 支付订单-->
+    <color name="money">#f5960c</color>
+    <color name="terem">#71c5ff</color>
+
+
+    <!-- 绑定银行卡-->
+    <color name="darkSkyBlue">#33a3f1</color>
+
+
+    <!-- 个人中心-->
+    <color name="salmon">#ff7270</color>
+
+    <!-- 实名认证／／ 登录／／短信认证//底部菜单-->
+    <color name="bluish">#2f87d5</color>
+    <color name="greenblue">#00cd98</color>
+    <color name="darkskyblue">#33a3f1</color>
+
+    <!--未支付订单／／资产-->
+    <color name="coral3">#ff7270</color>
+
+    <!-- 积分-->
+    <color name="lightgold">#f8f57c</color>
+    <color name="orangeish1">#ff8530</color>
+    <color name="mango">#f9a11f</color>
+
+    <!--输入密码-->
+    <color name="zise">#5f6db8</color>
+
+    <!--忘记密码-->
+    <color name="greenishTeal">#41d2ab</color>
+
+
+
+    <color name = "trancent_background">#e0000000</color>
+    <color name = "trancent_background2">#b0000000</color>
+    <color name="pro">#414141</color>
+    <color name="greyishBrown1">#414141</color>
+    <color name="greyishBrown3">#424242</color>
+    <color name="greyishBrown2">#525252</color>
+    <color name="black2">#333333</color>
+    <color name="black4">#3b3b3b</color>
+    <color name="black">#101010</color>
+    <color name="black5">#4a4a4a</color>
+    <color name="black3">#666666</color>
+    <color name="brownishGrey">#5d5d5d</color>
+    <color name="brownishGrey2">#616161</color>
+    <color name="warmGrey1">#717171</color>
+    <color name="warmGrey2">#999999</color>
+    <color name="warmGrey3">#929292</color>
+    <color name="warmGrey4">#9d9d9d</color>
+    <color name="warmGrey5">#9b9b9b</color>
+    <color name="warmGrey8">#979797</color>
+    <color name="warmGrey6">#a0a0a0</color>
+    <color name="warmGrey7">#787878</color>
+    <color name="greyish">#acacac</color>
+    <color name="pinkishgrey">#c5c5c5</color>
+    <color name="greyish2">#a6a6a6</color>
+    <color name="pinkishGrey2">#cccccc</color>
+    <color name="grey">#a1a1a1</color>
+    <color name="grey2">#bbbbbb</color>
+    <color name="grey3">#dddddd</color>
+    <color name="warmGrey9">#989898</color>
+    <color name="whites">#ffffff</color>
+    <color name="whites3">#f9f9f9</color>
+    <color name="whites2">#f5f5f5</color>
+    <color name="white3">#efefef</color>
+    <color name="white4">#dbdbdb</color>
+    <color name="white5">#ececec</color>
+
+    <color name="white2">#e9e9e9</color>
+    <color name="alto">#d8d8d8</color>
+    <color name="pinkishGrey">#cbcbcb</color>
+    <!--<color name="darkSkyBlue">#33a3f1</color>-->
+    <color name="skyblue">#71c5ff</color>
+
+    <color name="paleolicegreen">#b7e27f</color>
+    <color name="rules">#deeff2</color>
+    <color name="dodgerBlue">#2fadff</color>
+
+    <color name="iris">#5d62c2</color>
+    <color name="brightbule">#0079ff</color>
+    <!-- 红-->
+
+    <color name="salmon2">#ff716d</color>
+    <color name="hongse">#b34a4a</color>
+    <color name="grapefruit">#ff5b5b</color>
+    <color name="pumpkinorange">#ff7e0e</color>
+    <color name="coral2">#f35656</color>
+    <color name="grapefruit2">#fa695d</color>
+    <color name="coral">#f65452</color>
+    <color name="coral4">#ff7270</color>
+    <color name="coral5">#fe8271</color>
+
+    <color name="palesalmon">#ffa3a3</color>
+    <!-- 黄-->
+    <!--<color name="lightgold">#ffe65c</color>-->
+    <color name="squash">#f5960c</color>
+    <color name="jifen">#b2b05b</color>
+
+    <color name="tiffanyBule">#69e8cd</color>
+    <color name="danzi">#e5e6f8</color>
+
+
+
+
+</resources>

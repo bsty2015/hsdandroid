@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/whites"
+        >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/keyboardCancel"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@mipmap/cancel"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                >
+
+            <TextView
+                android:id="@+id/errMSGTip"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/input_verification"
+                android:textColor="@color/black2"
+                android:textSize="16dp"
+
+                />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/key_backgroun"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/yz1"
+                android:layout_width="9dp"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/black5"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="47dp"
+                android:background="@color/white2"
+                />
+
+
+            <EditText
+                android:layout_width="9dp"
+                android:id="@+id/yz2"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:textColor="@color/black5"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="47dp"
+                android:background="@color/white2"
+                />
+
+            <EditText
+
+                android:layout_width="9dp"
+                android:id="@+id/yz3"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/black5"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="47dp"
+                android:background="@color/white2"
+                />
+
+
+            <EditText
+                android:layout_width="9dp"
+                android:id="@+id/yz4"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/black5"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="47dp"
+                android:background="@color/white2"
+                />
+
+            <EditText
+                android:layout_width="9dp"
+                android:id="@+id/yz5"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/black5"
+                android:layout_weight="1"
+                />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="47dp"
+                android:background="@color/white2"
+                />
+
+            <EditText
+                android:layout_width="9dp"
+                android:id="@+id/yz6"
+                android:layout_height="47dp"
+                android:inputType="text"
+                android:background="@null"
+                android:gravity="center"
+                android:textColor="@color/black5"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/repeatSendLayout"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                android:id="@+id/countDownNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34s"
+                android:textColor="@color/darkSkyBlue"
+                />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/resend"
+              android:textColor="@color/darkskyblue"
+              android:textSize="12dp"
+              />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible"
+        android:keyBackground="@drawable/key_selector"
+        android:background="@color/whites"
+         android:keyTextColor="@color/black"
+        android:keyTextSize="25dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="0.0"
+
+        />
+
+</RelativeLayout>

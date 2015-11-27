@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whites2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout" />
+
+    <LinearLayout
+        android:id="@+id/rgChannelContent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/whites"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rgChannel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        </RadioGroup>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white2"
+        />
+
+    <com.jc.ui.CustomerViewPager
+        android:id="@+id/vpNewsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+    </com.jc.ui.CustomerViewPager>
+
+
+</LinearLayout>

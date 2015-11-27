@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+
+    >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginDialog"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whites"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/payContentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:background="@mipmap/baonk"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/productName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新天地1号"
+                    android:textSize="20dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="28dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp">
+
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预期年化收益率7%"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/payProDuration"
+                    android:layout_width="56dp"
+                    android:layout_height="16dp"
+                    android:text="期限31天"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/iris"
+                    android:background="@drawable/whites_background"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:background="@color/whites"
+            >
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_height="18dp"
+                android:text="@string/bank_car"
+                android:textSize="10dp"
+                android:textColor="@color/whites"
+                android:background="@drawable/dodgerblue2_background"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/notBindCard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/whites"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="@string/addbank_car"
+                android:textSize="14dp"
+                android:textColor="@color/warmGrey1"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/liebiao"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="146dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bindCardBar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:background="@color/whites"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/cardICON"
+                android:layout_width="10dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/cardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="14dp"
+                android:textColor="@color/warmGrey1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (尾号"
+                android:textSize="14dp"
+                android:textColor="@color/warmGrey1"
+                />
+
+            <TextView
+                android:id="@+id/cardLast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="14dp"
+                android:textColor="@color/warmGrey1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:textSize="14dp"
+                android:textColor="@color/warmGrey1"
+                />
+
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/xuanze"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="80dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="@color/whites2"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/whites"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/purchase_amount"
+                android:textColor="@color/warmGrey1"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+
+                />
+
+            <EditText
+                android:id="@+id/investAmt"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入购买金额"
+                android:textColor="@color/black4"
+                android:textColorHint="@color/pinkishgrey"
+                android:layout_marginLeft="29dp"
+                android:textSize="14dp"
+                android:digits="1234567890"
+                android:background="@null"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/firstPayInfo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余可购金额"
+                    android:textColor="@color/warmGrey1"
+                    android:layout_marginLeft="34dp"
+                    android:textSize="10dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/remainAmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="45,000"
+                    android:textColor="@color/mango"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    android:textColor="@color/warmGrey1"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="10dp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                >
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:textColor="@color/warmGrey1"
+                    android:src="@mipmap/yujisy"
+                    android:layout_marginLeft="35dp"
+                    android:textSize="10dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预计收益"
+                    android:textSize="10dp"
+                    android:textColor="@color/warmGrey1"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:id="@+id/profit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/mango"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    android:textColor="@color/warmGrey1"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="10dp"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/repeatPayInfo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:textColor="@color/warmGrey1"
+                android:src="@mipmap/yujisy"
+                android:layout_marginLeft="35dp"
+                android:textSize="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预计收益"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey1"
+                android:layout_marginLeft="2dp"
+                />
+            <TextView
+                android:id="@+id/repeatProfit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/mango"
+                android:layout_marginLeft="2dp"
+                android:textSize="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元"
+                android:textColor="@color/warmGrey1"
+                android:layout_marginLeft="3dp"
+                android:textSize="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/confirmPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="47dp"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="确认支付"
+                android:textSize="14dp"
+                android:textColor="@color/whites"
+                android:background="@drawable/dodgerblue_background"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/yes"
+                android:layout_marginLeft="35dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:textColor="@color/warmGrey7"
+                android:layout_marginLeft="2dp"
+                />
+
+            <TextView
+                android:id="@+id/debateContract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应收账款转让及回购协议"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:textColor="@color/darkSkyBlue"
+                android:layout_marginRight="50dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

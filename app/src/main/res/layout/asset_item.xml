@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/whites"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:text="@string/order_number"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey3"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:text="x56ded285sd"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey3"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="将于18:24过期"
+                android:textColor="@color/warmGrey3"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新天地1号"
+                    android:textSize="10dp"
+                    android:textColor="@color/black2"
+                    android:layout_marginLeft="18dp"
+                    />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="70,000.00"
+                    android:textSize="16dp"
+                    android:textColor="@color/black3"
+                    android:layout_marginLeft="18dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,960.88"
+                    android:textSize="16dp"
+                    android:textColor="@color/coral3"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="30dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:text="@string/purchase_principal"
+                    android:textSize="10dp"
+                    android:textColor="@color/warmGrey3"
+                    android:layout_marginLeft="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:text="@string/income_time"
+                    android:textSize="10dp"
+                    android:textColor="@color/warmGrey3"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="28dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal"
+            android:background="@drawable/coral2_background"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immediate_paid"
+                android:textSize="14dp"
+                android:textColor="@color/whites"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whites2"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@color/darkSkyBlue"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:src="@mipmap/head_portrait"
+               android:layout_marginTop="21dp"
+            />
+
+        </LinearLayout>
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="26dp"
+          >
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginLeft="40dp"
+              >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/name"
+                 android:textColor="@color/whites"
+                 android:textSize="10dp"
+                 android:contentDescription="@null"
+                 android:scaleType="centerInside"
+
+                 />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="李*"
+                  android:textColor="@color/whites"
+                  android:textSize="16dp"
+                  android:layout_marginTop="5dp"
+                  />
+
+          </LinearLayout>
+
+          <View
+              android:layout_width="1dp"
+              android:layout_height="35dp"
+              android:background="@color/skyblue"
+              android:gravity="center_vertical"
+              android:layout_centerInParent="true"
+              />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:contentDescription="@null"
+              android:scaleType="centerInside"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="15dp"
+
+              >
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/id_card"
+                  android:textColor="@color/whites"
+                  android:textSize="10dp"
+                  android:layout_weight="1"
+                  android:gravity="right"
+                  android:layout_marginRight="60dp"
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="41033****2321"
+                  android:textColor="@color/whites"
+                  android:textSize="16dp"
+                  android:layout_marginTop="5dp"
+                  />
+
+          </LinearLayout>
+
+      </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/whites"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="17dp"
+            android:text="@string/bank_car"
+            android:textSize="10dp"
+            android:textColor="@color/whites"
+            android:background="@drawable/dodgerblue2_background"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:gravity="right"
+                android:src="@mipmap/liebiao"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:text="@string/view_support_bank"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey7"
+                android:layout_marginRight="30dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/whites"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="17dp"
+            android:text="@string/card_number"
+            android:textSize="12dp"
+            android:textColor="@color/warmGrey7"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:text="6224 1828 3912 9527"
+            android:textSize="14dp"
+            android:textColor="@color/black4"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/whites"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="17dp"
+            android:text="@string/phone_number"
+            android:textSize="12dp"
+            android:textColor="@color/warmGrey7"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:text="15658015060"
+            android:textSize="14dp"
+            android:textColor="@color/black4"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white3"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/next_step"
+            android:textSize="14dp"
+            android:textColor="@color/whites"
+            android:background="@drawable/dodgerblue_background"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本服务由易宝支付(yeepay.com)提供"
+            android:textSize="10dp"
+            android:textColor="@color/warmGrey7"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

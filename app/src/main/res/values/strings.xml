@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">集财</string>
+
+    <!-- 字体-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="jicai">集财</string>
+
+
+
+    <!--header text-->
+    <string name="jicaiTitle">集财</string>
+    <string name="productTitle">资产</string>
+    <string name="guize">礼金规则</string>
+
+    <!--理财产品 -->
+    <string name="indexButtonText">首页</string>
+    <string name="productButtonText">理财产品</string>
+    <string name="userHomeButoonText">个人中心</string>
+    <string name="moreButtonText">了解更多</string>
+
+    <string name="data">日期</string>
+    <string name="handle">操作</string>
+    <string name="reward">奖励</string>
+    <string name="invitation">邀请注册</string>
+    <string name="invitation_record">我的邀请记录</string>
+    <string name="bonus_rules">查看奖励规则</string>
+
+    <string name="opl">产品信息</string>
+    <string name="produce_name">新天地1号</string>
+    <string name="expected_annual_yield">预期年化收益率</string>
+    <string name="financial_period">理财期限(天)</string>
+    <string name="remaining_sum">剩余可购金额(元)</string>
+    <string name="aggregate_amount">总金额</string>
+    <string name="risk_rating">风险评估</string>
+    <string name="ultra_low_risk">超低风险</string>
+    <string name="highrisk">高风险</string>
+    <string name="medium_risk">中风险</string>
+    <string name="interest_rate">即日起息</string>
+    <string name="security_interest">本息保障</string>
+    <string name="platform_plus">平台加送</string>
+    <string name="novice_exclusive">新手专享</string>
+    <string name="buy">购买</string>
+    <string name="money">/500元起</string>
+    <string name="on_sale">后开售</string>
+    <string name="bank_car">银行卡</string>
+    <string name="bound_bank_car">绑定银行卡</string>
+    <string name="addbank_car">添加银行卡</string>
+    <string name="binding_bankcar">最多绑定5张银行卡</string>
+    <string name="purchase_amount">购买金额</string>
+    <string name="purchase_amountt">购买金额（元）</string>
+
+    <string name="next_step">下一步</string>
+    <string name="real_name">真实姓名</string>
+    <string name="view_support_bank">查看支持银行</string>
+    <string name="card_number">卡号:</string>
+    <string name="not_bank_card">不支持该银行卡</string>
+    <string name="confirm_payment">确认支付</string>
+    <string name="curchase_success">恭喜您，购买成功</string>
+    <string name="check">立即查看</string>
+    <string name="purchase_failure">购买失败</string>
+    <string name="try_again">再试一次</string>
+    <string name="bank_list">支持银行列表</string>
+
+<!--个人中心 -->
+
+    <string name="accumulated_integral">累计积分</string>
+    <string name="integral">获得的积分</string>
+    <string name="converted">已兑换</string>
+    <string name="get_gifts">获得礼金</string>
+    <string name="cash_gift">礼金</string>
+    <string name="certified_gift">礼金获取规则</string>
+    <string name="converted_gift">礼金兑付规则</string>
+    <string name="acquisition_time">获取时间:</string>
+    <string name="source">来源:</string>
+    <string name="illustrate">说明:</string>
+    <string name="friends_gifts">好友交易礼金</string>
+
+
+    <!-- 积分规则-->
+    <string name="declarationi">获取积分规则</string>
+    <string name="rules">集财菜籽计划规则</string>
+    <string name="friengifts">推荐好友获取积分</string>
+
+    <string name="caizijihua" formatted="false">1.推荐好友注册,送2000积分;\n2.推荐好友首次交易,送8000积分;\n  再次交易按照交易金额和期限不同，积分算法如下:\n   月度产品:积分＝购买金额/12;\n   季度产品:积分＝购买金额/4;\n   半年产品:积分＝购买金额/2;\n   全年产品:积分＝购买金额;\n   新手产品:固定送1000积分;\n3.推荐好友单笔交易满10000,送10元礼金;\n4.每第5个推荐好友单笔交易满10000,送50元礼金;\n5.满20个推荐好友单笔交易满10000,送专享1%年化\n           收益增幅。</string>
+
+
+
+
+    <string name="jifenname">1.注册即送1000积分；\n2.新手产品:固定送1000积分；\n3.交易积分算法如下:\n  月度产品:积分＝购买金/6;\n  季度产品:积分＝购买金额/2;\n  半年产品:积分＝购买金额;\n  全年产品:积分＝购买金额;\n4.首次交易原始积分双倍计算(新手产品不参加)。</string>
+
+    <string name="jinfentuijian" formatted="false">1.推荐好友注册，送2000积分;\n2.推荐好友首次交易，送8000积分（新手产品不参加）;\n3.推荐好友再次交易，送好友积分的50%;\n4.推荐好友单笔交易满10000，送10元礼金;\n5.每第5个推荐好友单笔交易满10000，送50元礼金；\n6.满20个推荐好友单笔交易满10000，送专享1%年化\n   收益增幅。</string>
+
+
+
+    <string name="news">消息</string>
+    <string name="been_certified">已认证</string>
+    <string name="not_certified">未认证</string>
+    <string name="certified">认证状态</string>
+    <string name="notice_certified">立即认证</string>
+    <string name="phone_number">手机号:</string>
+    <string name="phone_number2">手机号</string>
+    <string name="phone_numbers">手机号码</string>
+    <string name="name">姓名:</string>
+    <string name="namee">姓名</string>
+    <string name="id_card">身份证号码:</string>
+    <string name="id_cardd">身份证号码</string>
+
+    <string name="account_information">账户信息</string>
+    <string name="unfilled_orders">未完成订单</string>
+    <string name="integration">积分</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="exit_account">退出当前账户</string>
+    <string name="exit_count">退出账户</string>
+
+
+    <string name="message_text">消息正文</string>
+    <string name="order_status">订单状态</string>
+    <string name="payment_informationt">支付信息</string>
+    <string name="contract">合同附件</string>
+    <string name="unpaid_orders">未支付订单</string>
+    <string name="asset">资产</string>
+    <string name="Order_details">订单详情</string>
+    <string name="change_password">修改密码</string>
+    <string name="income_statement">收支明细</string>
+    <string name="order_number">订单号:</string>
+    <string name="overdue">后过期</string>
+    <string name="purchase_principal">购买本金(元)</string>
+    <string name="payment">支付</string>
+    <string name="payment2">立即支付</string>
+    <string name="total_assets">账户总资产(元)</string>
+    <string name="assets">账户总资产 (元)</string>
+    <string name="hold">持有中</string>
+    <string name="income_time">到期收益(元)</string>
+    <string name="immediate_paid">立即注册</string>
+    <string name="hint">应收账款转让协议</string>
+    <string name="original_password">原密码</string>
+    <string name="please_password">请输入原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="constraint">由6～18位数字,字母组成</string>
+    <string name="confirm">确定</string>
+    <string name="change_success">修改成功</string>
+    <string name="complete">全部</string>
+
+    <string name="income">收益</string>
+    <string name="anticipated_income">预计收益（元）</string>
+    <string name="today_income">今日收益(元)</string>
+    <string name="accumulated_income">累计收益(元)</string>
+    <string name="rigid_payment">兑付</string>
+
+
+    <!-- 购买状态-->
+    <string name="success">恭喜，购买成功!</string>
+    <string name="failure">抱歉，购买失败。</string>
+    <string name="failure2">绑定手机号有误</string>
+    <string name="chakan">立即查看</string>
+    <string name="chonshi">再试一次</string>
+    <string name="goumai">再买一笔</string>
+
+<!--登陆注册-->
+
+    <string name="landing">登录</string>
+    <string name="register">注册</string>
+
+    <string name="put_int">提交</string>
+    <string name="immediate_registration">立即注册</string>
+    <string name="registration_suss">恭喜您，注册成功!</string>
+
+    <string name="forget_password">忘记密码?</string>
+    <string name="identifying_code">我们已经将验证码发至您到手机</string>
+    <string name="resend">重新发送</string>
+
+    <string name="input_verification">请输入验证码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_password2">设置密码</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="verification">验证码</string>
+    <string name="get_verification">获取验证码</string>
+    <string name="set_login_password">设置登陆密码</string>
+    <string name="immediate_sharing">立即分享</string>
+    <string name="refurbish">刷新</string>
+    <string name="back_home">回到首页</string>
+    <string name="renzheng">[通过绑定银行卡完成认证]</string>
+    <string name="explain">华盛达控股集团旗下互联网理财平台</string>
+    <string name="explainn">华盛达控股集团旗下互联网理财平台</string>
+    <string name="instruction">A HSD Holding Group Company</string>
+
+
+    <!--了解更多 -->
+    <string name="about_collection">关于集财</string>
+    <string name="customer_service">客户服务</string>
+    <string name="frequently_asked_questions">常见问题</string>
+    <string name="active_center">活动中心</string>
+    <string name="sharing_friends">分享给好友</string>
+    <string name="feedback">意见反馈</string>
+
+    <!-- 检测更新-->
+    <string name="genx">检测更新</string>
+    <string name="download">正在下载...</string>
+    <string name="xiazai">发现新版本，点击下载</string>
+    <string name="zuixin">当前为最新版本</string>
+
+    <string name="message">亲爱的荠菜，进街道交通银行通知，交通银行定于2015年7月26日20:00至2015年7月30日进行系统升级。系统升级期间交通银行上海地区用户暂停办理银商通业务，上海地区交易商将无法进行签约，解约，改约及出入金等相关业务操作</string>
+
+    <!-- 关于集财-->
+    <string name="guanyujicai">
+        浙江华盛达互联网金融服务有限公司是华盛达控股集团旗下2015年新注册子公司。\n\n华盛达集团创办于1992年，主要经营塑料建材、地产、建筑及自主经营型物业，同时涉及银行、典当、担保、学校等多元化投资。
+        \n\n自2007年涉足金融投资领域以来，相继投资入股或间接参股湖州银行、德清县农商银行、民权德商村镇银行、睢县德商村镇银行、天津滨海德商村镇银行等12家银行，逐步构筑产业资本和金融资本的互动平台，实现专业化经营和多元化投资的经营格局。
+        \n\n2015年，华盛达进入互联网金融领域，为集团金融投资格局新添一个更有发展潜力和想像空间的板块，希望能为普惠金融做出更多的探索。
+    </string>
+    <string name="gongsi">浙江华盛达互联网金融服务有限公司</string>
+
+
+
+    <!-- 常见问题-->
+
+    <string name="gongzuo">服务时间：工作日 9:00-21:00</string>
+    <string name="QQ">企业QQ</string>
+    <string name="tweet">微博</string>
+    <!--<string name="jcai">@集财－互联网金融</string>-->
+    <string name="dianhua">客服电话</string>
+    <string name="wenti">常见问题FAQ</string>
+
+    <string name="one">1.如何注册集财理财平台用户？</string>
+    <string name="ones">在微信公众号搜索“集财”，关注集财公众号。点击底部按钮[我的集财]，在[个人中心]用手机号码完成注册账号即可</string>
+
+    <string name="two">\n2.如何完成集财账户的实名认证？</string>
+    <string name="twos">集财账户注册完成之后，在【个人中心】-【银行卡】的界面绑定本人银行卡（只支持储蓄卡），填写内容包括姓名，身份证号码，银行卡号和银行预留手机号，在手机完成身份校验后，实名认证完成。</string>
+
+    <string name="three">\n3.手机收不到短信验证码？</string>
+    <string name="threes">手机不能及时收到验证码，可能是以下愿意导致的：
+               \n·您当前所处位置的手机信号不稳定产生影响；
+               \n·您的手机里安装的拦截软件将短信验证码当作垃圾短信拦截了
+               \n·您可能向运营商投诉过106号段的垃圾短信，要求运营商将该号 段短信拦截掉了。
+               \n如果确认非上述原因导致的短信验证码无法接收，您可以尝试重启手机或者换个时间再试。
+    </string>
+
+
+    <string name="four">\n4.一个手机号是否只能对应一个身份证号？</string>
+    <string name="fours">为保证用户资金和个人信息安全，一个手机号码只能对应一个身份证号码；一个身份证号码只能实名认证一次（唯一性）</string>
+
+
+    <string name="five">\n5.如何购买产品？</string>
+    <string name="fives">首先关注【集财公众号】，并完成账户的注册和实名认证，然后在【理财产品】中选择相应的理财产品，完成支付。</string>
+
+
+    <string name="six">\n6.为什么不能用信用卡付款？</string>
+    <string name="sixs">目前集财理财平台暂不支持使用信用卡购买理财产品，请使用储蓄卡进行支付。</string>
+
+
+    <string name="seven">\n7.关于集财？</string>
+    <string name="sevens">供优质、风险低、收益合理的理财机会，现在你可以通过手机轻松地了解理财资讯、完成理财产品购买。</string>
+
+
+    <string name="eight">\n8.什么是银行预留手机号？</string>
+    <string name="eights">银行预留手机号码是您在银行办理开卡签约时预留在银行的针对该银行卡的手机号码。如有疑问可以致电银行客服或者携带身份证到发卡银行办理预留手机号更新。</string>
+
+
+    <string name="nine">\n9.为什么银行已经扣款，但账户信息里没有显示？</string>
+    <string name="nines">这种情况属于掉单，银行扣款后，钱会停留在第三支付平台，第三方支付会在1-2个工作日退回用户的银行卡上；或联系客服4000053300咨询</string>
+
+
+    <string name="ten">\n10.产品到期后资金如何返还？</string>
+    <string name="tens">根据同卡进出的原则，当购买的理财产品到期后，本金和收益会在2个工作日内自动返回您的付款银行卡。\n\n\n\n  </string>
+
+
+
+
+<!--刷新-->
+    <string name="ap_name">PullToRefreshTest</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <string name="transparent">#000000</string>
+    <string name="title_activity_forget_password_activity_new">ForgetPasswordActivityNew</string>
+
+</resources>

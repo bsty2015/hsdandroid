@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jc"
+    android:versionCode="5"
+    android:versionName="2.3">
+
+    <!-- 拨打电话权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 友盟分享需要的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 个推消息推送权限配置开始-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!--<uses-permission android:name="getui.permission.GetuiService.com.jc.jc_android" />-->
+
+    <!--<permission-->
+    <!--android:name="getui.permission.GetuiService.com.jc.jc_android"-->
+    <!--android:protectionLevel="normal"></permission>-->
+    <!-- 个推权配置结束-->
+    <!-- 极光推送权限配置开始-->
+    <permission
+        android:name="${applicationId}.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="${applicationId}.permission.JPUSH_MESSAGE" />
+    <!-- 极光推送权限配置结束-->
+    <!-- 需要申明百度的权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- Testin权限-->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:name=".base.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <meta-data
+            android:name="CHANNEL"
+            android:value="DEVELOPER_TEST" />
+        <!--android:value="${UMENG_CHANNEL_VALUE}" />-->
+
+        <!-- 设置AppKey-->
+        <meta-data
+            android:name="TESTIN_APPKEY"
+            android:value="9be25d051c0314d5c6536de2217019a0" />
+        <!-- 设置渠道信息-->
+        <meta-data
+            android:name="TESTIN_CHANNEL"
+            android:value="androidw" />
+
+        <meta-data
+            android:name="IS_DEVELOPER_TEST"
+            android:value="1" />
+        <!-- 您从百度网站获取的APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="63713f6625" />
+        <!-- abcd1234 -->
+        <!-- 渠道商编号 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="SET_TIME_INTERVAL" />
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <meta-data
+            android:name="BaiduMobAd_TIME_INTERVAL"
+            android:value="1" />
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="true" />
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+        <!--&lt;!&ndash;个推SDK配置开始&ndash;&gt;-->
+        <!--&lt;!&ndash; 配置的第三方参数属性&ndash;&gt;-->
+        <!--<meta-data-->
+        <!--android:name="PUSH_APPID"-->
+        <!--android:value="tvXiCrw14a8NVn0bOei3aA" />-->
+        <!--<meta-data-->
+        <!--android:name="PUSH_APPKEY"-->
+        <!--android:value="fw5cOmSyaK8uH02ffYpff3" />-->
+        <!--<meta-data-->
+        <!--android:name="PUSH_APPSECRET"-->
+        <!--android:value="26AZCrGGMq9BegRszsmeV3" />-->
+        <!--&lt;!&ndash; 配置第三方Receiver 用来接收ClientId和透传消息 &ndash;&gt;-->
+        <!--<receiver-->
+        <!--android:name=".receiver.GeTuiPushReceiver"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.igexin.sdk.action.tvXiCrw14a8NVn0bOei3aA" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--&lt;!&ndash; 配置SDK核心服务 &ndash;&gt;-->
+        <!--<service-->
+        <!--android:name="com.igexin.sdk.PushService"-->
+        <!--android:exported="true"-->
+        <!--android:label="NotificationCenter"-->
+        <!--android:process=":pushservice"></service>-->
+        <!--&lt;!&ndash; SDK　2.6.1.0版本新增配置项 &ndash;&gt;-->
+        <!--<service-->
+        <!--android:name="com.igexin.sdk.PushServiceUser"-->
+        <!--android:exported="true"-->
+        <!--android:label="NotificationCenterUser"></service>-->
+
+        <!--<receiver android:name="com.igexin.sdk.PushReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+        <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+        <!--<action android:name="android.intent.action.USER_PRESENT" />-->
+        <!--<action android:name="com.igexin.sdk.action.refreshls" />-->
+        <!--&lt;!&ndash; 以下三项为可选的action声明，可大大提高service存活率和消息到达速度 &ndash;&gt;-->
+        <!--<action android:name="android.intent.action.MEDIA_MOUNTED" />-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />-->
+        <!--<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<receiver-->
+        <!--android:name="com.igexin.sdk.PushManagerReceiver"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.igexin.sdk.action.pushmanager" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<activity-->
+        <!--android:name="com.igexin.sdk.PushActivity"-->
+        <!--android:excludeFromRecents="true"-->
+        <!--android:exported="false"-->
+        <!--android:process=":pushservice"-->
+        <!--android:taskAffinity="com.igexin.sdk.PushActivityTask"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>-->
+
+        <!--<service-->
+        <!--android:name="com.igexin.download.DownloadService"-->
+        <!--android:process=":pushservice" />-->
+
+        <!--<receiver android:name="com.igexin.download.DownloadReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<provider-->
+        <!--android:name="com.igexin.download.DownloadProvider"-->
+        <!--android:authorities="downloads.com.jc.jicai_android"-->
+        <!--android:exported="true"-->
+        <!--android:process=":pushservice" />-->
+
+        <!--<activity-->
+        <!--android:name="com.igexin.getuiext.activity.GetuiExtActivity"-->
+        <!--android:configChanges="orientation|keyboard|keyboardHidden"-->
+        <!--android:excludeFromRecents="true"-->
+        <!--android:exported="false"-->
+        <!--android:process=":pushservice"-->
+        <!--android:taskAffinity="android.task.myServicetask"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+        <!--<receiver-->
+        <!--android:name="com.igexin.getuiext.service.PayloadReceiver"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />-->
+        <!--<action android:name="com.igexin.sdk.action.tvXiCrw14a8NVn0bOei3aA" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<service-->
+        <!--android:name="com.igexin.getuiext.service.GetuiExtService"-->
+        <!--android:process=":pushservice" />-->
+
+        <!--&lt;!&ndash; 个推SDK配置结束 &ndash;&gt;-->
+
+        <!-- 极光推送配置开始-->
+        <!-- Required SDK核心功能-->
+
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能-->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false"></service>
+
+
+        <!-- Required SDK 核心功能-->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+                <category android:name="${applicationId}" />
+            </intent-filter>
+
+        </service>
+
+        <!-- Required SDK核心功能-->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <!--Required  显示通知栏 -->
+                <category android:name="${applicationId}" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+
+        </receiver>
+
+        <!-- Required SDK核心功能-->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器-->
+        <receiver
+            android:name=".receiver.JpushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!--Required  用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!--Required  用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!--Required  用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!--Required  用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!--Optional 用户接受Rich Push Javascript 回调函数的intent-->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="1dd419eba778e63caeed39bf" />
+        <!--  </>值来自开发者平台取得的AppKey-->
+        <!-- 极光推送配置结束-->
+
+        <activity android:name=".ui.WelcomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainTabActivity" />
+        <activity
+            android:name=".product.ProductDetailActivity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".ui.WebViewActivity"></activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".account.AccountActivity"></activity>
+        <activity android:name=".ui.DataActivity"></activity>
+        <activity android:name=".capital.CapitalActivity"></activity>
+        <activity android:name=".capital.UnpayCapitalActivity" />
+        <activity android:name=".cash.CashActivity"></activity>
+        <activity android:name=".integrate.IntegrationActivity" />
+        <activity android:name=".invite.InviteActivity"></activity>
+        <activity android:name=".message.MessageActivity"></activity>
+        <activity android:name=".message.MessageDetailActivity"></activity>
+        <activity android:name=".ui.BoundActivity"></activity>
+        <activity android:name=".account.ChangepasswordActivity"></activity>
+        <activity android:name=".ui.AboutActiviyt"></activity>
+        <activity android:name=".ui.FrequentlyActivity"></activity>
+        <activity android:name=".ui.FankuiActivity"></activity>
+        <activity android:name=".ui.CustomerActivity"></activity>
+        <activity android:name=".ui.ActiveActivity"></activity>
+        <activity android:name=".register.RegisterActivtity"></activity>
+        <activity android:name=".ui.SmsActivity"></activity>
+        <activity android:name=".register.InputPasswdActivity" />
+        <activity android:name=".ui.UpdateActivity" />
+
+
+        <!-- <activity android:name="KeyBoardActivity"/> -->
+        <!-- <activity android:name="TestKeyBaord"/> -->
+        <activity android:name=".bank.BankListActivity" />
+        <activity android:name=".bank.AddCardActivity" />
+        <activity android:name=".capital.InvestProDetailActivity" />
+        <activity android:name=".pay.PayActivity" />
+        <activity android:name=".pay.PayCompleteActivity" />
+        <activity android:name=".details.DealDetailActivity" />
+        <activity android:name=".register.ForgetPasswordActivtity" />
+        <activity android:name=".register.ModifyNewPasswordActivtity" />
+
+        <!-- 腾讯SSO授权的Activity注册 QQ空间喝QQ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 这里需要配置自己QQ互联的AppID:tencentXXXXXX，和代码中保持一致 -->
+                <data android:scheme="tencent1104770411" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- *************************    分享相关的注册 START **************************** -->
+        <!-- 分享内容编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+
+        <!-- 友盟Appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="562de8cc67e58ec44e00583e"></meta-data>
+
+        <!-- 微信回调activity -->
+        <activity
+            android:name=".jicai_android.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".register.ForgetPasswordActivityNew"
+            android:label="@string/title_activity_forget_password_activity_new"
+            android:parentActivityName=".register.RegisterActivtity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jc.register.RegisterActivtity" />
+        </activity>
+    </application>
+
+</manifest>

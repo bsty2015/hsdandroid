@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/closeButton"
+    >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="328dp"
+         android:layout_marginRight="32dp"
+         android:layout_marginLeft="32dp"
+         android:layout_marginTop="150dp"
+         android:background="@drawable/coral3_background"
+        android:orientation="vertical"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:gravity="center"
+             >
+             <TextView
+                 android:id="@+id/img_gift"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/certified_gift"
+                 android:textSize="14dp"
+                 android:layout_marginTop="25dp"
+                 android:textColor="@color/whites"
+                 />
+
+         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:text="注册即送20元礼金；\n推荐好友单笔交易满10000元，送10元礼金；\n每第5个推荐好友单笔交易满10000元，送50元礼金；\n满20个推荐好友单笔交易满10000元，送专享1%\n年化收益增幅。"
+                android:textSize="10dp"
+                android:lineSpacingExtra ="3dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center"
+             android:layout_marginTop="40dp"
+
+             >
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/converted_gift"
+                 android:textSize="14dp"
+                 android:textColor="@color/whites"
+                 />
+
+
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_marginLeft="23dp"
+             android:layout_marginRight="23dp"
+             >
+
+             <TextView
+                 android:layout_width="238dp"
+                 android:layout_height="wrap_content"
+                 android:text="您获取的礼金可以以现金形式兑付到银行卡。\n礼金会跟随您到期的理财产品一起兑付到相应的银行卡，每次兑付一笔。"
+                 android:lineSpacingExtra ="3dp"
+                 android:textSize="10dp"
+                 />
+
+         </LinearLayout>
+
+
+
+
+     </LinearLayout>
+
+    <!--<ImageView-->
+        <!-- -->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:src="@mipmap/close"-->
+        <!--android:layout_marginTop="140dp"-->
+        <!--android:layout_marginLeft="28dp"-->
+        <!--/>-->
+
+</RelativeLayout>

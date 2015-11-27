@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:orientation="vertical"
+        android:background="@color/whites"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="8dp"
+        >
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@color/whites"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="13dp"
+                android:text="@string/order_number"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey2"
+                android:layout_marginLeft="22dp"
+                />
+
+            <TextView
+                android:id="@+id/unpayCapitalOrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:text=""
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey2"
+                />
+
+            <TextView
+                android:id="@+id/expireInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text=" "
+                android:textSize="10dp"
+                android:textColor="#999999"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="24dp"
+                />
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white2"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="23dp"
+                />
+
+
+            <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+            >
+
+              <TextView
+                  android:id="@+id/unpayCapitalName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="新天地1号"
+                  android:textSize="10dp"
+                  android:textColor="@color/greyishBrown1"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="22dp"
+                  />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/unpayCapitalCorpus"
+                android:layout_width="80dp"
+                android:layout_height="19dp"
+                android:text="0.00"
+                android:textSize="16dp"
+                android:textColor="@color/greyishBrown1"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="23dp"
+                />
+
+            <TextView
+                android:id="@+id/unpayCapitalProfit"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="0.00"
+                android:textSize="18dp"
+                android:textColor="@color/coral2"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="33dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="13dp"
+                android:text="@string/purchase_principal"
+                android:textSize="10dp"
+                android:textColor="@color/greyishBrown1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="23dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:text="@string/anticipated_income"
+                android:textSize="10dp"
+                android:textColor="@color/greyishBrown1"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="24dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/repeatPayButton"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/whites"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/payment2"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textColor="@color/whites"
+                android:background="@drawable/coral2_background"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white4"
+        android:layout_marginTop="3dp"
+        android:visibility="invisible"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whites2"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+            android:background="@color/whites"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                >
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:src="@mipmap/success2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="@string/success"
+                    android:textColor="@color/best_seller"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:src="@mipmap/success"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/white2"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="20dp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/layout_msg_icon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@color/whites"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:id="@+id/backButton"
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/coral2_background"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goumai"
+                        android:textSize="14dp"
+                        android:textColor="@color/whites"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/displayCapital"
+                    android:layout_width="154dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cheek_background"
+                    android:gravity="center"
+                    android:layout_marginLeft="170dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chakan"
+                        android:textSize="14dp"
+                        android:textColor="@color/warmGrey2"
+                        />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:background="@color/whites"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="@color/whites2"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/whites"
+            >
+
+            <TextView
+                android:id="@+id/laiyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="购买新天地1号"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey5"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="23dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18dp"
+                android:textColor="@color/orangeish1"
+                android:layout_marginLeft="23dp"
+                />
+
+            <TextView
+                android:id="@+id/jifenshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000"
+                android:textSize="14dp"
+                android:textColor="@color/orangeish1"
+                />
+
+            <TextView android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text="2015-06-22"
+                android:textSize="10dp"
+                android:textColor="@color/warmGrey5"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/white2"
+        />
+
+
+</LinearLayout>

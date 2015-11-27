@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+ <LinearLayout
+    android:layout_width="286dp"
+    android:layout_height="450dp"
+     android:orientation="vertical"
+     android:background="@drawable/white_background"
+     android:gravity="center"
+     android:layout_marginTop="45dp"
+     >
+
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="42dp"
+             android:gravity="center"
+             >
+
+             <TextView
+                 android:id="@+id/select"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="支持银行列表"
+                 android:textSize="16dp"
+                 android:textColor="@color/black"
+
+                 />
+
+
+         </LinearLayout>
+
+
+
+         <RelativeLayout
+             android:layout_width="28dp"
+             android:layout_height="28dp"
+             android:layout_marginLeft="228dp"
+             android:layout_marginTop="6dp"
+             >
+
+
+             <ImageView
+                 android:id="@+id/closeBankListButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@mipmap/cancel"
+
+                 />
+
+         </RelativeLayout>
+
+     </RelativeLayout>
+
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="@color/white2"
+
+         />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icbc"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国工商银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 5万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/boc"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ccb"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国建设银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 20万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/post"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国邮政存蓄"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ecitic"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中信银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ceb"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="光大银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hxb"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="华夏银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cmbchina"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="招商银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cib"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="兴业银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/spdb"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="浦发银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pingan"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="平安银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 20万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/gdb"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="广发银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cmbc"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="民生银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white2"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/abc"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国农业银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white2"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/boco"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="交通银行"
+                android:textSize="14dp"
+                android:textColor="@color/dodgerBlue"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限额 5万/笔 50万/日 50万/月"
+                android:textColor="@color/greyishBrown2"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+  </LinearLayout>
+</LinearLayout>

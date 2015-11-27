@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+    >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout"
+        />
+
+
+    <EditText
+        android:id="@+id/add_content"
+        android:layout_width="wrap_content"
+        android:layout_height="176dp"
+        android:gravity="top"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:background="@drawable/white_background"
+        android:hint="亲，您遇到了什么问题啦，或有什么功能建议吗？欢迎您题给我们，谢谢（字数20～200以内）！"
+        android:textSize="12dp"
+        android:textColor="@color/black2"
+        android:textColorHint="@color/grey2"
+        android:paddingTop="16dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="11dp"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+
+
+     <TextView
+         android:id="@+id/fankuis"
+         android:layout_width="match_parent"
+         android:layout_height="45dp"
+         android:text="提交"
+         android:textSize="16dp"
+         android:textColor="@color/whites"
+         android:background="@drawable/dodgerblue_background"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+         android:layout_marginTop="25dp"
+         android:gravity="center"
+         />
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites2"
+    >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/head_layout"
+        />
+<LinearLayout
+    android:id="@+id/msgDetailContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whites"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@color/whites"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/msgType"
+                android:layout_width="33dp"
+                android:layout_height="15dp"
+                android:text=" "
+                android:textSize="10dp"
+                android:textColor="@color/whites"
+                android:background="@drawable/coral_background"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/msgTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:text=" "
+                android:textSize="14dp"
+                android:textColor="@color/greyishBrown1"
+                android:layout_marginLeft="4dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/msgDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/warmGrey4"
+                android:textSize="10dp"
+                android:text=" "
+
+                />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white2"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+
+        <TextView
+            android:id="@+id/msgInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="10dp"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/greyishBrown3"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

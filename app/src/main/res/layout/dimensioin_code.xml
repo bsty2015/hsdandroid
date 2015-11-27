@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/closeButton"
+    android:background="@color/trancent_background2"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:layout_marginRight="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/showImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/erweima"
+
+            />
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="440dp"
+       >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="邀请好友扫码加入集财"
+        android:textColor="@color/whites"
+        android:textSize="15dp"
+
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
